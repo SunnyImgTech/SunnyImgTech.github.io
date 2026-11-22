@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research — Sunny Image Technology</title>
-<meta name="description" content="Research areas in computer vision and image processing: domain adaptation, saliency detection, fine-grained classification and hashing, small object detection, 3D detection.">
+<meta name="description" content="Publications in domain adaptation, saliency and camouflaged object detection, fine-grained retrieval, small object detection, 3D perception, knowledge distillation, active learning, restoration and applied vision.">
 <meta name="author" content="Sun Han">
 <meta name="keywords" content="computer vision, image processing, domain adaptation, saliency detection, deep hashing, small object detection, Sun Han">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Research — Sunny Image Technology">
-<meta property="og:description" content="Research areas in computer vision and image processing: domain adaptation, saliency detection, fine-grained classification and hashing, small object detection, 3D detection.">
+<meta property="og:description" content="Publications in domain adaptation, saliency and camouflaged object detection, fine-grained retrieval, small object detection, 3D perception, knowledge distillation, active learning, restoration and applied vision.">
 <meta property="og:site_name" content="Sunny Image Technology">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/img/favicon.ico" sizes="48x48">
@@ -42,14 +42,30 @@
     <div class="page-head">
       <p class="kicker">01 <span>·</span> Research</p>
       <h1>Research Areas</h1>
-      <p class="lead">Five threads run through my work in computer vision and image processing &mdash; from adapting models across domains to detecting tiny objects in aerial imagery. Each entry links to the paper, its preprint, and the released code where available.</p>
+      <p class="lead">Broadly, five threads have run through this work for a decade &mdash; domain adaptation, saliency, fine-grained retrieval, small object detection and 3D perception. The last three years added six more, from model compression to image restoration. 51 papers in 11 areas, newest first in each; my name is in bold.</p>
     </div>
   </div>
   <div class="wrap"><div class="rule"></div></div>
   <div class="wrap">
-    <section class="block">
-      <h2 class="sec"><span class="idx">1.1</span>Domain Adaptation</h2>
+      <nav class="jump-nav" aria-label="Research areas"><a href="#area-1-1">1.1 Domain Adaptation &amp; Test-Time Adaptation</a><a href="#area-1-2">1.2 Saliency &amp; Camouflaged Object Detection</a><a href="#area-1-3">1.3 Fine-grained Retrieval, Hashing &amp; Classification</a><a href="#area-1-4">1.4 Small Object Detection in Aerial Imagery</a><a href="#area-1-5">1.5 3D Perception: Point Cloud, Image &amp; Occupancy</a><a href="#area-1-6">1.6 Knowledge Distillation &amp; Model Compression</a><a href="#area-1-7">1.7 Active &amp; Semi-Supervised Learning</a><a href="#area-1-8">1.8 Image Restoration, Synthesis &amp; Security</a><a href="#area-1-9">1.9 Vision-Language &amp; Scene Text</a><a href="#area-1-10">1.10 Applied Vision Systems</a><a href="#area-1-11">1.11 Cross-disciplinary Collaborations</a></nav>
+    <section class="block" id="area-1-1">
+      <h2 class="sec"><span class="idx">1.1</span>Domain Adaptation &amp; Test-Time Adaptation</h2>
+      <p class="sec-note">Adapting models to a new domain without labels, and keeping them adapted while the domain keeps shifting.</p>
       <ul class="pubs">
+        <li>
+          <span class="tag">[7]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">X. Meng, <b>H. Sun</b>, J. Liu, N. Liu and H. Zhou</span>, <span class="pub-title"><em>SPARNet: Continual Test-Time Adaptation via Sample Partitioning Strategy and Anti-Forgetting Regularization</em></span>. <span class="pub-venue">arXiv preprint.</span></p>
+            <div class="links"><a href="https://arxiv.org/abs/2501.00818">arXiv</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[6]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">W. Yin, <b>H. Sun</b>, X. Meng, N. Liu and H. Zhou</span>, <span class="pub-title"><em>DCFS: Continual Test-Time Adaptation via Dual Consistency of Feature and Sample</em></span>. <span class="pub-venue">PRCV 2025.</span></p>
+            <div class="links"><a href="https://arxiv.org/abs/2508.20516">arXiv</a></div>
+          </div>
+        </li>
         <li>
           <span class="tag">[5]</span>
           <div>
@@ -87,9 +103,31 @@
         </li>
       </ul>
     </section>
-    <section class="block">
-      <h2 class="sec"><span class="idx">1.2</span>Saliency Detection</h2>
+    <section class="block" id="area-1-2">
+      <h2 class="sec"><span class="idx">1.2</span>Saliency &amp; Camouflaged Object Detection</h2>
+      <p class="sec-note">Finding what stands out &mdash; or what is deliberately hidden &mdash; in natural, remote sensing and underwater scenes.</p>
       <ul class="pubs">
+        <li>
+          <span class="tag">[8]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">X. Huang, <b>H. Sun</b>, J. Cai, N. Liu and H. Zhou</span>, <span class="pub-title"><em>APGNet: Adaptive Prior-Guided for Underwater Camouflaged Object Detection</em></span>. <span class="pub-venue">Proceedings of the 7th ACM International Conference on Multimedia in Asia (MM Asia 2025), pp. 1&ndash;6.</span></p>
+            <div class="links"><a href="https://doi.org/10.1145/3743093.3770984">DOI</a><a href="https://arxiv.org/abs/2510.12056">arXiv</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[7]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">X. Huang, <b>H. Sun</b>, N. Liu, H. Zhou and Y. Yao</span>, <span class="pub-title"><em>SLENet: A Guidance-Enhanced Network for Underwater Camouflaged Object Detection</em></span>. <span class="pub-venue">PRCV 2025.</span></p>
+            <div class="links"><a href="https://arxiv.org/abs/2509.03786">arXiv</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[6]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">J. Cai, <b>H. Sun</b> and N. Liu</span>, <span class="pub-title"><em>B2Net: Camouflaged Object Detection via Boundary Aware and Boundary Fusion</em></span>. <span class="pub-venue">arXiv preprint.</span></p>
+            <div class="links"><a href="https://arxiv.org/abs/2501.00426">arXiv</a></div>
+          </div>
+        </li>
         <li>
           <span class="tag">[5]</span>
           <div>
@@ -127,21 +165,22 @@
         </li>
       </ul>
     </section>
-    <section class="block">
-      <h2 class="sec"><span class="idx">1.3</span>Fine-grained Classification &amp; Deep Hashing</h2>
+    <section class="block" id="area-1-3">
+      <h2 class="sec"><span class="idx">1.3</span>Fine-grained Retrieval, Hashing &amp; Classification</h2>
+      <p class="sec-note">Representing subtle visual differences so that similar categories can be told apart and searched at scale.</p>
       <ul class="pubs">
         <li>
           <span class="tag">[4]</span>
           <div>
-            <p class="pub-meta"><span class="pub-authors"><b>H. Sun</b>, W. Lang, C. Xu, N. Liu and H. Zhou</span>, <span class="pub-title"><em>Graph-based discriminative features learning for fine-grained image retrieval</em></span>. <span class="pub-venue">Signal Processing: Image Communication, vol. 110, 116885 (9 pages), 2022.</span></p>
-            <div class="links"><a href="https://doi.org/10.1016/j.image.2022.116885">DOI</a><a href="https://github.com/wencylang/GDF-net">Code</a></div>
+            <p class="pub-meta"><span class="pub-authors">Y. Qi, <b>H. Sun</b>, N. Liu and H. Zhou</span>, <span class="pub-title"><em>A Task-aware Dual Similarity Network for Fine-grained Few-shot Learning</em></span>. <span class="pub-venue">In: Khanna S., Cao J., Bai Q., Xu G. (eds) <em>PRICAI 2022: Trends in Artificial Intelligence</em>. Lecture Notes in Computer Science, vol 13631, pp. 606&ndash;618, Springer, Cham.</span></p>
+            <div class="links"><a href="https://doi.org/10.1007/978-3-031-20868-3_45">DOI</a><a href="https://arxiv.org/abs/2210.12348">arXiv</a><a href="https://github.com/qiyanhero/TDSNet">Code</a></div>
           </div>
         </li>
         <li>
           <span class="tag">[3]</span>
           <div>
-            <p class="pub-meta"><span class="pub-authors">Y. Qi, <b>H. Sun</b>, N. Liu and H. Zhou</span>, <span class="pub-title"><em>A Task-aware Dual Similarity Network for Fine-grained Few-shot Learning</em></span>. <span class="pub-venue">In: Khanna S., Cao J., Bai Q., Xu G. (eds) <em>PRICAI 2022: Trends in Artificial Intelligence</em>. Lecture Notes in Computer Science, vol 13631, pp. 606&ndash;618, Springer, Cham.</span></p>
-            <div class="links"><a href="https://doi.org/10.1007/978-3-031-20868-3_45">DOI</a><a href="https://arxiv.org/abs/2210.12348">arXiv</a><a href="https://github.com/qiyanhero/TDSNet">Code</a></div>
+            <p class="pub-meta"><span class="pub-authors"><b>H. Sun</b>, W. Lang, C. Xu, N. Liu and H. Zhou</span>, <span class="pub-title"><em>Graph-based discriminative features learning for fine-grained image retrieval</em></span>. <span class="pub-venue">Signal Processing: Image Communication, vol. 110, 116885 (9 pages), 2022.</span></p>
+            <div class="links"><a href="https://doi.org/10.1016/j.image.2022.116885">DOI</a><a href="https://github.com/wencylang/GDF-net">Code</a></div>
           </div>
         </li>
         <li>
@@ -160,9 +199,45 @@
         </li>
       </ul>
     </section>
-    <section class="block">
-      <h2 class="sec"><span class="idx">1.4</span>Small Object Detection</h2>
+    <section class="block" id="area-1-4">
+      <h2 class="sec"><span class="idx">1.4</span>Small Object Detection in Aerial Imagery</h2>
+      <p class="sec-note">Objects a few pixels wide, seen from a drone or a satellite: frequency-aware transformers, lightweight backbones and anchor-free heads.</p>
       <ul class="pubs">
+        <li>
+          <span class="tag">[9]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">J. Shen, N. Liu, <b>H. Sun</b>, S. Wu, Z. Liang, L. Han, Y. Zhang and D. Li</span>, <span class="pub-title"><em>Lightweight Semantic Feature Extraction Model With Direction Awareness for Aerial Traffic Object Detection</em></span>. <span class="pub-venue">IEEE Transactions on Intelligent Transportation Systems, vol. 27, no. 4, pp. 4569&ndash;4586, 2026.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/TITS.2025.3642410">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[8]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">J. Chen, N. Liu, <b>H. Sun</b> and Y. Wang</span>, <span class="pub-title"><em>Freq-DETR: Frequency-aware transformer for real-time small object detection in unmanned aerial vehicle imagery</em></span>. <span class="pub-venue">Expert Systems with Applications, vol. 298, 129710, 2026.</span></p>
+            <div class="links"><a href="https://doi.org/10.1016/j.eswa.2025.129710">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[7]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">J. Shen, W. Zhou, N. Liu, <b>H. Sun</b>, D. Li and Y. Zhang</span>, <span class="pub-title"><em>An Anchor-Free Lightweight Deep Convolutional Network for Vehicle Detection in Aerial Images</em></span>. <span class="pub-venue">IEEE Transactions on Intelligent Transportation Systems, vol. 23, no. 12, pp. 24330&ndash;24342, 2022.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/TITS.2022.3203715">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[6]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">J. Shen, N. Liu, <b>H. Sun</b>, D. Li and Y. Zhang</span>, <span class="pub-title"><em>Lightweight Deep Network With Context Information and Attention Mechanism for Vehicle Detection in Aerial Image</em></span>. <span class="pub-venue">IEEE Geoscience and Remote Sensing Letters, vol. 19, pp. 1&ndash;5, 2022.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/LGRS.2022.3153115">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[5]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">W. Zhou, J. Shen, N. Liu, S. Xia and <b>H. Sun</b></span>, <span class="pub-title"><em>An Anchor-Free Vehicle Detection Algorithm in Aerial Image Based on Context Information and Transformer</em></span>. <span class="pub-venue">IEEE Geoscience and Remote Sensing Letters, vol. 19, pp. 1&ndash;5, 2022.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/LGRS.2022.3202186">DOI</a></div>
+          </div>
+        </li>
         <li>
           <span class="tag">[4]</span>
           <div>
@@ -180,27 +255,218 @@
         <li>
           <span class="tag">[2]</span>
           <div>
-            <p class="pub-meta"><span class="pub-authors">J. Shen, N. Liu, <b>H. Sun</b> and H. Zhou</span>, <span class="pub-title"><em>Vehicle Detection in Aerial Images Based on Lightweight Deep Convolutional Network and Generative Adversarial Network</em></span>. <span class="pub-venue">IEEE Access, vol. 7, pp. 148119&ndash;148130, 2019.</span></p>
-            <div class="links"><a href="https://doi.org/10.1109/ACCESS.2019.2947143">DOI</a></div>
+            <p class="pub-meta"><span class="pub-authors">J. Shen, N. Liu, <b>H. Sun</b>, X. Tao and Q. Li</span>, <span class="pub-title"><em>Vehicle Detection in Aerial Images Based on Hyper Feature Map in Deep Convolutional Network</em></span>. <span class="pub-venue">KSII Transactions on Internet and Information Systems, 13(4): 1989&ndash;2011, 2019.</span></p>
+            <div class="links"><a href="https://doi.org/10.3837/tiis.2019.04.014">DOI</a></div>
           </div>
         </li>
         <li>
           <span class="tag">[1]</span>
           <div>
-            <p class="pub-meta"><span class="pub-authors">J. Shen, N. Liu, <b>H. Sun</b>, X. Tao and Q. Li</span>, <span class="pub-title"><em>Vehicle Detection in Aerial Images Based on Hyper Feature Map in Deep Convolutional Network</em></span>. <span class="pub-venue">KSII Transactions on Internet and Information Systems, 13(4): 1989&ndash;2011, 2019.</span></p>
-            <div class="links"><a href="https://doi.org/10.3837/tiis.2019.04.014">DOI</a></div>
+            <p class="pub-meta"><span class="pub-authors">J. Shen, N. Liu, <b>H. Sun</b> and H. Zhou</span>, <span class="pub-title"><em>Vehicle Detection in Aerial Images Based on Lightweight Deep Convolutional Network and Generative Adversarial Network</em></span>. <span class="pub-venue">IEEE Access, vol. 7, pp. 148119&ndash;148130, 2019.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/ACCESS.2019.2947143">DOI</a></div>
           </div>
         </li>
       </ul>
     </section>
-    <section class="block">
-      <h2 class="sec"><span class="idx">1.5</span>Object Detection Based on Point Cloud and Image</h2>
+    <section class="block" id="area-1-5">
+      <h2 class="sec"><span class="idx">1.5</span>3D Perception: Point Cloud, Image &amp; Occupancy</h2>
+      <p class="sec-note">Fusing LiDAR and cameras, and describing a scene as occupied volume rather than flat boxes.</p>
       <ul class="pubs">
+        <li>
+          <span class="tag">[3]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">H. Huang, <b>H. Sun</b>, N. Liu, H. Zhou and J. Shen</span>, <span class="pub-title"><em>SliceSemOcc: Vertical Slice Based Multimodal 3D Semantic Occupancy Representation</em></span>. <span class="pub-venue">PRCV 2025.</span></p>
+            <div class="links"><a href="https://arxiv.org/abs/2509.03999">arXiv</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[2]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">Z. Yin, <b>H. Sun</b>, N. Liu, H. Zhou and J. Shen</span>, <span class="pub-title"><em>DecoratingFusion: A LiDAR-Camera Fusion Network with the Combination of Point-Level and Feature-Level Fusion</em></span>. <span class="pub-venue">In: <em>Artificial Neural Networks and Machine Learning &ndash; ICANN 2024</em>. Lecture Notes in Computer Science, pp. 108&ndash;119, Springer, Cham.</span></p>
+            <div class="links"><a href="https://doi.org/10.1007/978-3-031-72335-3_8">DOI</a><a href="https://arxiv.org/abs/2501.00220">arXiv</a></div>
+          </div>
+        </li>
         <li>
           <span class="tag">[1]</span>
           <div>
             <p class="pub-meta"><span class="pub-authors">Z. Yin, <b>H. Sun</b>, N. Liu, H. Zhou and J. Shen</span>, <span class="pub-title"><em>FGFusion: Fine-Grained Lidar-Camera Fusion for 3D Object Detection</em></span>. <span class="pub-venue">PRCV 2023.</span></p>
             <div class="links"><a href="https://arxiv.org/abs/2309.11804">arXiv</a><a href="https://github.com/XavierGrool/FGFusion">Code</a></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="block" id="area-1-6">
+      <h2 class="sec"><span class="idx">1.6</span>Knowledge Distillation &amp; Model Compression</h2>
+      <p class="sec-note">Getting a small network to behave like a large one &mdash; by distillation, pruning, or teaching it in reverse.</p>
+      <ul class="pubs">
+        <li>
+          <span class="tag">[5]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">H. Huang, P. Wu, J. Zhou, N. Liu and <b>H. Sun</b></span>, <span class="pub-title"><em>Shallow connection: A subtle weaving of layers with self-knowledge distillation</em></span>. <span class="pub-venue">Neural Networks, vol. 206, 109906, 2027.</span></p>
+            <div class="links"><a href="https://doi.org/10.1016/j.neunet.2026.109906">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[4]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">P. Wu, H. Huang, <b>H. Sun</b>, D. Liang and N. Liu</span>, <span class="pub-title"><em>CPRNC: Channels pruning via reverse neuron crowding for model compression</em></span>. <span class="pub-venue">Computer Vision and Image Understanding, vol. 240, 103942, 2025.</span></p>
+            <div class="links"><a href="https://doi.org/10.1016/j.cviu.2024.103942">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[3]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">P. Wu, H. Huang, <b>H. Sun</b> and N. Liu</span>, <span class="pub-title"><em>Gated filter pruning via sample manifold relationships</em></span>. <span class="pub-venue">Applied Intelligence, vol. 54, pp. 9848&ndash;9863, 2024.</span></p>
+            <div class="links"><a href="https://doi.org/10.1007/s10489-024-05690-w">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[2]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">P. Wu, J. Zhang, <b>H. Sun</b> and N. Liu</span>, <span class="pub-title"><em>Regional filtering distillation for object detection</em></span>. <span class="pub-venue">Machine Vision and Applications, vol. 35, art. 24, 2024.</span></p>
+            <div class="links"><a href="https://doi.org/10.1007/s00138-023-01503-1">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[1]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">M. Pei, N. Liu, P. Gao and <b>H. Sun</b></span>, <span class="pub-title"><em>Reverse Knowledge Distillation with Two Teachers for Industrial Defect Detection</em></span>. <span class="pub-venue">Applied Sciences, 13(6):3838, 2023.</span></p>
+            <div class="links"><a href="https://doi.org/10.3390/app13063838">DOI</a></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="block" id="area-1-7">
+      <h2 class="sec"><span class="idx">1.7</span>Active &amp; Semi-Supervised Learning</h2>
+      <p class="sec-note">Labels are the expensive part. These papers decide which samples are worth annotating at all.</p>
+      <ul class="pubs">
+        <li>
+          <span class="tag">[4]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">T. Yin, N. Liu and <b>H. Sun</b></span>, <span class="pub-title"><em>Towards Cost-Effective Learning: A Synergy of Semi-Supervised and Active Learning</em></span>. <span class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2025), pp. 10163&ndash;10172.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/CVPR52734.2025.00950">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[3]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">L. Geng, N. Liu, <b>H. Sun</b> and J. Qin</span>, <span class="pub-title"><em>Active Learning for Long-Tailed Annotation</em></span>. <span class="pub-venue">ICASSP 2025, pp. 1&ndash;5.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/ICASSP49660.2025.10890599">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[2]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">T. Yin, N. Liu and <b>H. Sun</b></span>, <span class="pub-title"><em>Boosting active learning via re-aligned feature space</em></span>. <span class="pub-venue">Knowledge-Based Systems, vol. 311, 113085, 2025.</span></p>
+            <div class="links"><a href="https://doi.org/10.1016/j.knosys.2025.113085">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[1]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">T. Yin, N. Liu and <b>H. Sun</b></span>, <span class="pub-title"><em>Uncertain region mining semi-supervised object detection</em></span>. <span class="pub-venue">Applied Intelligence, vol. 54, pp. 2300&ndash;2313, 2024.</span></p>
+            <div class="links"><a href="https://doi.org/10.1007/s10489-023-05246-4">DOI</a></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="block" id="area-1-8">
+      <h2 class="sec"><span class="idx">1.8</span>Image Restoration, Synthesis &amp; Security</h2>
+      <p class="sec-note">Model the physics that degrades an image, then either undo it or hide a mark inside it.</p>
+      <ul class="pubs">
+        <li>
+          <span class="tag">[2]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">F. Hu, N. Liu, <b>H. Sun</b> and Y. Wang</span>, <span class="pub-title"><em>DDRW: Dynamic Degradation Representation for Adaptive Robust Blind Watermarking</em></span>. <span class="pub-venue">IEEE Transactions on Circuits and Systems for Video Technology, vol. 36, no. 7, pp. 10448&ndash;10465, 2026.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/TCSVT.2026.3666621">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[1]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">J. Yan, G. Zhang, C. Li, W. Yang and <b>H. Sun</b></span>, <span class="pub-title"><em>Physically realistic fog synthesis via multiple scattering model for image defogging</em></span>. <span class="pub-venue">Optics &amp; Laser Technology, vol. 203, 115876, 2026.</span></p>
+            <div class="links"><a href="https://doi.org/10.1016/j.optlastec.2026.115876">DOI</a></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="block" id="area-1-9">
+      <h2 class="sec"><span class="idx">1.9</span>Vision-Language &amp; Scene Text</h2>
+      <p class="sec-note">Where pixels meet language: reading text in the wild, and judging whether a caption actually conforms to a norm.</p>
+      <ul class="pubs">
+        <li>
+          <span class="tag">[2]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">T. Shi, Z. Wu, Q. Qiao, H. Mo, W. Song, X. Wang, H. Huang, Y. Bo, <b>H. Sun</b>, X. Jin and A. Hao</span>, <span class="pub-title"><em>VAC-Bench: From Text Similarity to Norm Conformance in Video Aesthetic Captioning Evaluation</em></span>. <span class="pub-venue">Proceedings of the 34th ACM International Conference on Multimedia (MM 2026), pp. 8849&ndash;8857.</span></p>
+            <div class="links"><a href="https://doi.org/10.1145/3767308.3834988">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[1]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">S. Xia, L. Geng, N. Liu, <b>H. Sun</b> and J. Qin</span>, <span class="pub-title"><em>Lifelong Scene Text Recognizer via Expert Modules</em></span>. <span class="pub-venue">Proceedings of the 31st ACM International Conference on Multimedia (MM 2023), pp. 1821&ndash;1830.</span></p>
+            <div class="links"><a href="https://doi.org/10.1145/3581783.3612062">DOI</a></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="block" id="area-1-10">
+      <h2 class="sec"><span class="idx">1.10</span>Applied Vision Systems</h2>
+      <p class="sec-note">Deployed problems from industry and cultural heritage &mdash; gauges, defects, veins, and a thousand-year-old mural.</p>
+      <ul class="pubs">
+        <li>
+          <span class="tag">[4]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">J. Shen, N. Liu, <b>H. Sun</b>, D. Li, Y. Zhang and L. Han</span>, <span class="pub-title"><em>An algorithm based on lightweight semantic features for ancient mural element object detection</em></span>. <span class="pub-venue">npj Heritage Science, vol. 13, art. 70, 2025.</span></p>
+            <div class="links"><a href="https://doi.org/10.1038/s40494-025-01565-6">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[3]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">J. Shen, N. Liu, <b>H. Sun</b>, D. Li and Y. Zhang</span>, <span class="pub-title"><em>An Instrument Indication Acquisition Algorithm Based on Lightweight Deep Convolutional Neural Network and Hybrid Attention Fine-Grained Features</em></span>. <span class="pub-venue">IEEE Transactions on Instrumentation and Measurement, vol. 73, pp. 1&ndash;16, 2024.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/TIM.2023.3346488">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[2]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">M. Pei, N. Liu, B. Zhao and <b>H. Sun</b></span>, <span class="pub-title"><em>Self-Supervised Learning for Industrial Image Anomaly Detection by Simulating Anomalous Samples</em></span>. <span class="pub-venue">International Journal of Computational Intelligence Systems, vol. 16, art. 152, 2023.</span></p>
+            <div class="links"><a href="https://doi.org/10.1007/s44196-023-00328-0">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[1]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">J. Shen, N. Liu, C. Xu, <b>H. Sun</b>, Y. Xiao, D. Li and Y. Zhang</span>, <span class="pub-title"><em>Finger Vein Recognition Algorithm Based on Lightweight Deep Convolutional Neural Network</em></span>. <span class="pub-venue">IEEE Transactions on Instrumentation and Measurement, vol. 71, pp. 1&ndash;13, 2022.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/TIM.2021.3132332">DOI</a></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="block" id="area-1-11">
+      <h2 class="sec"><span class="idx">1.11</span>Cross-disciplinary Collaborations</h2>
+      <p class="sec-note">Work outside computer vision proper, where the same optimisation and learning machinery turns out to be useful.</p>
+      <ul class="pubs">
+        <li>
+          <span class="tag">[3]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">Y. Xu, Y. He, T. Liu, N. Liu, <b>H. Sun</b>, M. Pei and J. Shen</span>, <span class="pub-title"><em>Exploration by Multi-Agent Relationship Graph Reconstruction</em></span>. <span class="pub-venue">AI, 7(10):388, 2026.</span></p>
+            <div class="links"><a href="https://doi.org/10.3390/ai7100388">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[2]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">T. Liu, Y. Xu, N. Liu, <b>H. Sun</b> and S. Xu</span>, <span class="pub-title"><em>Rotation Mutation-Driven Evolutionary Algorithm for Efficient Macro Placement</em></span>. <span class="pub-venue">IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, vol. 45, no. 1, pp. 232&ndash;245, 2026.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/TCAD.2025.3580346">DOI</a></div>
+          </div>
+        </li>
+        <li>
+          <span class="tag">[1]</span>
+          <div>
+            <p class="pub-meta"><span class="pub-authors">X. Yan, J. Cao, J. Zhou, C. Ding, <b>H. Sun</b>, L. Sun and A. Song</span>, <span class="pub-title"><em>DCP-AHS: A High-Performance Distributed Cooperative Positioning Model for Concave Networks</em></span>. <span class="pub-venue">IEEE Transactions on Mobile Computing, vol. 23, no. 5, pp. 4334&ndash;4347, 2024.</span></p>
+            <div class="links"><a href="https://doi.org/10.1109/TMC.2023.3291130">DOI</a></div>
           </div>
         </li>
       </ul>
@@ -211,7 +477,7 @@
   <div class="wrap">
     <div>
       <p><strong>Sunny Image Technology</strong> — research notes of Sun Han</p>
-      <p>Latest updated on April 24, 2025</p>
+      <p>Latest updated on November 22, 2026</p>
     </div>
     <div>
       <p>Migrated from www.sunnyimgtech.com · hosted on GitHub Pages</p>
