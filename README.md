@@ -44,22 +44,27 @@ Old bookmarks still work: `404.html` redirects the former page paths.
 
 ## Deploy to GitHub Pages
 
-1. Create a repository on GitHub (e.g. `sunnyimgtech`, or `<username>/<username>.github.io`
-   if you want the site at `https://<username>.github.io` directly).
-2. Push this folder as the repository root:
+Target: **https://sunnyimgtech.github.io** — user site served from the repository
+`SunnyImgTech/SunnyImgTech.github.io` (repository root = site root).
+
+One-time setup:
+
+1. Create an **empty public** repository named `SunnyImgTech.github.io` on GitHub
+   (no README, no .gitignore — the repo already has history here).
+2. Add the deploy SSH key (`~/.ssh/id_ed25519_sunnyimgtech.pub`) at
+   **Settings → SSH and GPG keys → New SSH key**.
+3. Push:
 
    ```bash
    cd site
-   git init
-   git add -A
-   git commit -m "Initial migration from sunnyimgtech.com"
-   git remote add origin git@github.com:<username>/<repo>.git
-   git branch -M main
    git push -u origin main
    ```
 
-3. On GitHub: **Settings → Pages → Source: Deploy from a branch → main / (root)** → Save.
-4. The site goes live at the URL shown on that page (allow a minute or two).
+4. **Settings → Pages → Source: Deploy from a branch → main / (root)** → Save.
+   A user site is usually built automatically on first push; the URL appears on that page.
+5. Site goes live at <https://sunnyimgtech.github.io> within a minute or two.
+
+After that, publishing an update is just `git add -A && git commit -m "..." && git push`.
 
 ### Custom domain (optional)
 
@@ -69,7 +74,7 @@ If you ever renew `sunnyimgtech.com` and want to keep using it:
    `sunnyimgtech.com`
 2. At your domain registrar, point DNS at GitHub Pages:
    - apex `A` records → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `www` `CNAME` → `<username>.github.io`
+   - `www` `CNAME` → `sunnyimgtech.github.io`
 3. Under **Settings → Pages → Custom domain**, add the domain and enable
    *Enforce HTTPS* once the certificate is issued.
 
