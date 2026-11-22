@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Sunny Image Technology</title>
+<meta name="description" content="Page not found. Old sunnyimgtech.com links are redirected here.">
+<meta name="author" content="Sun Han">
+<meta name="keywords" content="computer vision, image processing, domain adaptation, saliency detection, deep hashing, small object detection, Sun Han">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Page not found — Sunny Image Technology">
+<meta property="og:description" content="Page not found. Old sunnyimgtech.com links are redirected here.">
+<meta property="og:site_name" content="Sunny Image Technology">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topline"></div>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-name">Sunny Image Technology</span>
+      <span class="brand-sub">Computer Vision &amp; Image Processing</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Introduction</a>
+      <a href="research.html">Research</a>
+      <a href="project.html">Project</a>
+      <a href="course.html">Course</a>
+      <a href="beginner.html">Beginner</a>
+      <a href="math.html">Math</a>
+      <a href="tool.html">Tool</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <div class="page-head" style="padding-top:96px">
+      <p class="kicker">404</p>
+      <h1>This page moved, or never existed.</h1>
+      <p class="lead">The site used to live at www.sunnyimgtech.com. Some old links still point there.
+         Everything has been carried over &mdash; we are checking whether this address has a new home.</p>
+      <p style="margin-top:26px"><a class="btn" href="/">Back to home</a></p>
+    </div>
+  </div>
+  <script>
+  (function () {
+    var map = {"research-area": "research.html", "research": "research.html", "project": "project.html", "course": "course.html", "beginner": "beginner.html", "math": "math.html", "tool": "tool.html", "page152": "contact.html", "contact": "contact.html", "page156": "index.html", "wechat-official-accounts": "wechat.html", "personal": "memoir.html"};
+    var seg = location.pathname.split('/').filter(Boolean).pop() || '';
+    var key = decodeURIComponent(seg).replace(/\.html?$/i, '').toLowerCase();
+    if (map[key]) { location.replace(map[key]); return; }
+    if (!key) { location.replace('index.html'); }
+  })();
+  </script>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div>
+      <p><strong>Sunny Image Technology</strong> — research notes of Sun Han</p>
+      <p>Latest updated on April 24, 2025</p>
+    </div>
+    <div>
+      <p>Migrated from www.sunnyimgtech.com · hosted on GitHub Pages</p>
+      <p><a href="contact.html">Contact</a> · <a href="index.html">Home</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
